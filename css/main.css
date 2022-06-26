@@ -144,6 +144,8 @@ main .text .price span {
 
 main .text button {
     background-color: var(--Dark-cyan);
+        font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     border: none;
     color: var(--White);
     width: 250px;
