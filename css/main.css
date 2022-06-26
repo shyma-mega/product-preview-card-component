@@ -133,6 +133,14 @@ main .text .price span {
     top: 30%;
 
 }
+@media(max-width:767px) {
+    main .text .price span {
+        position: absolute;
+        right: 120px;
+        top: 30%;
+
+    }
+}
 
 main .text button {
     background-color: var(--Dark-cyan);
