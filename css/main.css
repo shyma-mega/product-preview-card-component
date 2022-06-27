@@ -10,6 +10,10 @@ body {
 
     font-family: 'Fraunces', serif;
     background-color: var(--Cream);
+      height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -18,12 +22,6 @@ main {
     max-width: 100%;
     background-color: white;
     display: flex;
-    position: relative;
-    transform: translateY(25%) translateX(50%);
-    -webkit-transform: translateY(25%) translateX(50%);
-    -moz-transform: translateY(25%) translateX(50%);
-    -ms-transform: translateY(25%) translateX(50%);
-    -o-transform: translateY(25%) translateX(50%);
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
